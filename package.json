@@ -1,0 +1,12 @@
+{
+  "name": "civicpulse-fullstack",
+  "version": "1.0.0",
+  "description": "Civic Pulse - Full-Stack Civic Issue Reporting with Node.js, Express, Supabase & AI",
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "start:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "test:backend": "cd backend && node test_api.js"
+  }
+}
